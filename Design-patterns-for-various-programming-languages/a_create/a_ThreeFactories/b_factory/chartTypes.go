@@ -18,6 +18,12 @@ type line struct {
 	Chart
 }
 
+// 假设新增一个类型，直接添加这一处就好了~~很简洁
+// (注意，添加代码不同于传统意义上的破坏修改性，还是对开闭原则友好的！因为没有打破原有代码逻辑，只是增加)
+type square struct {
+	Chart
+}
+
 func (c *Chart) display() {
 	fmt.Println("display Chart...display", c.name)
 }
