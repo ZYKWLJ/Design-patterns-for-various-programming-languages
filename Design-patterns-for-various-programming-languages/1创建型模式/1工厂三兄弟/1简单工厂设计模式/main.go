@@ -15,6 +15,7 @@ func main() {
 		} else {
 			fmt.Println("chart error!")
 		}
+		fmt.Println()
 	}
 	fmt.Println("graphic test over")
 }
