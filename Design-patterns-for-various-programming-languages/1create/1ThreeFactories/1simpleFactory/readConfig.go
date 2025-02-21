@@ -1,4 +1,4 @@
-package main
+package simplechartTypes
 
 import (
 	"bufio"
@@ -52,7 +52,7 @@ func ReadFileCharByChar(filePath string) ret {
 
 // 测试
 //func main() {
-//	filePath := "D:\\1code\\各种语言的设计模式\\Design-patterns-for-various-programming-languages\\1创建型模式\\1工厂三兄弟\\config.txt"
+//	filePath := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\1create\\1ThreeFactories\\config.txt"
 //	ans := ReadFileCharByChar(filePath)
 //	strs := ans.info
 //	for _, str := range strs {
