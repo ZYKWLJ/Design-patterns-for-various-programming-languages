@@ -1,4 +1,4 @@
-package simplechartTypes
+package a_simpleFactory
 
 import (
 	"bufio"
@@ -52,7 +52,7 @@ func ReadFileCharByChar(filePath string) ret {
 
 // 测试
 //func main() {
-//	filePath := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\1create\\1ThreeFactories\\config.txt"
+//	filePath := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\a_create\\a_ThreeFactories\\config.txt"
 //	ans := ReadFileCharByChar(filePath)
 //	strs := ans.info
 //	for _, str := range strs {

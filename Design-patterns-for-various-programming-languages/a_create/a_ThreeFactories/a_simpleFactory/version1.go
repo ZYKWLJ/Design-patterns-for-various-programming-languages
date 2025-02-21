@@ -1,4 +1,4 @@
-package simplechartTypes
+package a_simpleFactory
 
 import "fmt"
 

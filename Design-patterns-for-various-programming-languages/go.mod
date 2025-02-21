@@ -1,3 +1,3 @@
-module Design-patterns-for-various-programming-languages
+module DP
 
 go 1.23

@@ -1,4 +1,4 @@
-package simplechartTypes
+package a_simpleFactory
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 // 普通测试函数，包含具体的测试逻辑
 func TestChartCreation(t *testing.T) {
-	filePath := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\1create\\1ThreeFactories\\config.txt"
+	filePath := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\a_create\\a_ThreeFactories\\config.txt"
 	ans := ReadFileCharByChar(filePath)
 	if ans.err != nil {
 		t.Fatalf("读取文件出错: %v", ans.err)
