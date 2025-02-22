@@ -1,0 +1,6 @@
+line s
+histogram s
+pie l
+zyk m
+square s
+line l
