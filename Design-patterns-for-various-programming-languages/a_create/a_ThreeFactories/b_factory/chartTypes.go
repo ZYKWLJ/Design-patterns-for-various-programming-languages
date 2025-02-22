@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+type chartInterface interface {
+	Display()
+}
 type Chart struct {
 	name string
 }
@@ -24,7 +27,7 @@ type square struct {
 	Chart
 }
 
-func (c *Chart) display() {
+func (c *Chart) Display() {
 	fmt.Println("display Chart...display", c.name)
 }
 

@@ -52,8 +52,8 @@ func ReadFileCharByChar(filePath string) ret {
 
 // 测试
 //func main() {
-//	filePath := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\a_create\\a_ThreeFactories\\config.txt"
-//	ans := ReadFileCharByChar(filePath)
+//	filePathTheChartWeHave := "D:\\1code\\DesignPatterns\\Design-patterns-for-various-programming-languages\\a_create\\a_ThreeFactories\\config.txt"
+//	ans := ReadFileCharByChar(filePathTheChartWeHave)
 //	strs := ans.info
 //	for _, str := range strs {
 //		fmt.Println(str, " len:", len(str))
