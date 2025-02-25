@@ -1,6 +1,12 @@
-line
-line
-line
-zyk
-pie
-pie
+line l
+line s
+line m
+zyk s
+pie l
+pie m
+line s
+histogram l
+square l
+donthave m
+
+

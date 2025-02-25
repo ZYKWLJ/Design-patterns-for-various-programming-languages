@@ -16,9 +16,12 @@ func TestChartCreation(t *testing.T) {
 	for _, chartType := range info {
 		t.Logf("Chart In this turn : %s \t\n", chartType)
 		chart := creatChart(chartType)
+		var Interface chartDisplay = chart
+		Interface.Display()
 		if chart == nil {
 			fmt.Println("Chart error!")
 		}
+		fmt.Println()
 	}
 	t.Log("graphic test over")
 }

@@ -13,5 +13,5 @@ func creatChart(chartTypes string) *Chart {
 		return newLine(chartTypes)
 	}
 	fmt.Println("There is no current Chart in the graphics library")
-	return nil
+	return &Chart{name: "nil"}
 }
